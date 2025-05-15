@@ -1,4 +1,4 @@
-# Pull Request Commits
+# Pull Request Commit Format
 
 We request that changes in Pull Requests be squashed into one signed, single commit with this format:
 
