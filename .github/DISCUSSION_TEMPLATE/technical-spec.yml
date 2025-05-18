@@ -47,9 +47,9 @@ body:
     id: open_questions
     attributes:
       label: Open Questions
-      placeholder: |
-        - Question 1
-        - Question 2
+      #placeholder: |
+      #  - Question 1
+      #  - Question 2
   - type: textarea
     id: future_work
     attributes:
