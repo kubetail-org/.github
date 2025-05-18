@@ -14,9 +14,10 @@ body:
     id: goals
     attributes:
       label: Goals
-      value: |
-        - [ ] Goal 1
-        - [ ] Goal 2
+      description: List specific things that will be accomplished.
+      #value: |
+      #  - [ ] Goal 1
+      #  - [ ] Goal 2
   - type: textarea
     id: non_goals
     attributes:
@@ -27,12 +28,12 @@ body:
     attributes:
       label: Design Overview
       description: Describe the architecture or high-level technical approach.
-      value: |
-        Explain the proposed changes in detail:
-        - APIs
-        - Data models
-        - Code structure
-        - Dependencies
+      #value: |
+      #  Explain the proposed changes in detail:
+      #  - APIs
+      #  - Data models
+      #  - Code structure
+      #  - Dependencies
   - type: textarea
     id: alternatives
     attributes:
@@ -47,6 +48,7 @@ body:
     id: open_questions
     attributes:
       label: Open Questions
+      description: List open questions.
       #placeholder: |
       #  - Question 1
       #  - Question 2
