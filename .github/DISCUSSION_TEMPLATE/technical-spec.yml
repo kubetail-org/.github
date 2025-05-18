@@ -1,7 +1,8 @@
 labels: ["Technical Spec"]
 body:
-  - type: Markdown
-    value: Technical spec
+  - type: markdown
+    attributes:
+      value: "Bugs are the worst!"
   - type: textarea
     id: overview
     attributes:
