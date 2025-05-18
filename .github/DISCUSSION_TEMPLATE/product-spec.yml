@@ -1,8 +1,10 @@
 title: "[Product Spec] "
 labels: ["Product Spec"]
 body:
-  - type: markdown
+  - type: textarea
+    id: body
     attributes:
+      label: Add a body
       value: |
         ## Summary
 
