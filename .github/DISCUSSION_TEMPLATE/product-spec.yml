@@ -1,10 +1,35 @@
-title: "[Product Spec] "
+title: ""
 labels: ["Product Spec"]
 body:
   - type: textarea
-    id: body
+    id: summary
     attributes:
-      label: Add a body
+      label: Summary
+      description: What is the feature or product you're proposing? Provide a 1–2 sentence overview.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is the feature or product you're proposing? Provide a 1–2 sentence overview.
+  - type: textarea
+    id: goals
+    attributes:
+      label: Goals
+      description: What are the measurable objectives of this feature?
+  - type: textarea
+    id: nongoals
+    attributes:
+      label: Non-Goals
+      description: What is explicitly out of scope for this release?
+  - type: textarea
+    id: users
+    attributes:
+      label: Users
+      description: Who are the primary users or personas? How do they benefit?
+  - type: textarea
+    id: rest
+    attributes:
+      label: The rest
       value: |
         ## Summary
 
