@@ -1,10 +1,7 @@
 labels: ["Technical Spec"]
 body:
-  - type: markdown
-    attributes:
-      value: "Bugs are the worst!"
-  - type: textarea
-    id: overview
-    attributes:
-      label: Overview
-      description: Briefly describe what this spec is about. What’s being proposed?
+- type: textarea
+  id: overview
+  attributes:
+    label: Overview
+    description: Briefly describe what this spec is about. What’s being proposed?
