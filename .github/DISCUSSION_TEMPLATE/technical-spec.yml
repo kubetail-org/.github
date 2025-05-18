@@ -1,7 +1,7 @@
-labels: ["Technical Spec"]
+labels: ["Product Spec"]
 body:
   - type: textarea
-    id: overview
+    id: summary
     attributes:
-      label: Overview
-      description: Briefly describe what this spec is about. What’s being proposed?
+      label: Summary
+      description: What is the feature or product you're proposing? Provide a 1–2 sentence overview.
