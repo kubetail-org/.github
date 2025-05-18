@@ -9,7 +9,7 @@ body:
     id: problem
     attributes:
       label: Problem
-      description: What is the feature or product you're proposing? Provide a 1–2 sentence overview.
+      description: What user need or business goal does this address?
   - type: textarea
     id: goals
     attributes:
