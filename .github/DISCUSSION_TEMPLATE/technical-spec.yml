@@ -5,4 +5,68 @@ body:
     attributes:
       label: Summary
       description: What is the feature or product you're proposing? Provide a 1–2 sentence overview.
-
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is the feature or product you're proposing? Provide a 1–2 sentence overview.
+  - type: textarea
+    id: goals
+    attributes:
+      label: Goals
+      description: What are the measurable objectives of this feature?
+  - type: textarea
+    id: nongoals
+    attributes:
+      label: Non-Goals
+      description: What is explicitly out of scope for this release?
+  - type: textarea
+    id: users
+    attributes:
+      label: Users
+      description: Who are the primary users or personas? How do they benefit?
+  - type: textarea
+    id: use_cases
+    attributes:
+      label: Use Cases
+      description: Describe key scenarios or user stories that this feature should support.
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: List the high-level requirements
+      placeholder: |
+        - Requirement 1
+        - Requirement 2
+  - type: textarea
+    id: ux_notes
+    attributes:
+      label: UX Notes (Optional)
+      description: Include wireframes, mockups, or design ideas if available.
+  - type: textarea
+    id: success_metrix
+    attributes:
+      label: Success Metrics
+      description: How will you measure whether this feature is successful?
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Are there any technical, product, or design dependencies?
+  - type: textarea
+    id: timeline
+    attributes:
+      label: Timeline
+      description: What is the rough timeline for implementation and rollout?
+  - type: textarea
+    id: open_questions
+    attributes:
+      label: Open Questions
+      placeholder: |
+        - Question 1
+        - Question 2
+  - type: textarea
+    id: future_work
+    attributes:
+      label: Future Work
+      description: Mention follow-ups or extensions that are out of scope for now.
