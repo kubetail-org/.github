@@ -1,68 +1,54 @@
-title: "Spec"
-labels: ["Product Spec"]
+labels: ["Technical Spec"]
 body:
   - type: textarea
-    id: summary
+    id: overview
     attributes:
-      label: Summary
-      description: What is the feature or product you're proposing? Provide a 1–2 sentence overview.
+      label: Overview
+      description: Briefly describe what this spec is about. What’s being proposed?
   - type: textarea
-    id: problem
+    id: motivation
     attributes:
-      label: Problem
-      description: What is the feature or product you're proposing? Provide a 1–2 sentence overview.
+      label: Motivation
+      description: Why are we doing this? What problem does it solve?
   - type: textarea
     id: goals
     attributes:
       label: Goals
-      description: What are the measurable objectives of this feature?
+      description: List specific things that will be accomplished.
+      value: |
+        - [ ] Goal 1
+        - [ ] Goal 2
   - type: textarea
-    id: nongoals
+    id: non_goals
     attributes:
       label: Non-Goals
-      description: What is explicitly out of scope for this release?
+      description: Clarify what is in scope and explicitly out of scope.
   - type: textarea
-    id: users
+    id: design_overview
     attributes:
-      label: Users
-      description: Who are the primary users or personas? How do they benefit?
+      label: Design Overview
+      description: Describe the architecture or high-level technical approach.
+      value: |
+        Explain the proposed changes in detail:
+        - APIs
+        - Data models
+        - Code structure
+        - Dependencies
   - type: textarea
-    id: use_cases
+    id: alternatives
     attributes:
-      label: Use Cases
-      description: Describe key scenarios or user stories that this feature should support.
+      label: Alternatives Considered
+      description: List other approaches you evaluated and why they were rejected.
   - type: textarea
-    id: requirements
+    id: risks_and_mitigations
     attributes:
-      label: Requirements
-      description: List the high-level requirements
-      placeholder: |
-        - Requirement 1
-        - Requirement 2
-  - type: textarea
-    id: ux_notes
-    attributes:
-      label: UX Notes (Optional)
-      description: Include wireframes, mockups, or design ideas if available.
-  - type: textarea
-    id: success_metrix
-    attributes:
-      label: Success Metrics
-      description: How will you measure whether this feature is successful?
-  - type: textarea
-    id: dependencies
-    attributes:
-      label: Dependencies
-      description: Are there any technical, product, or design dependencies?
-  - type: textarea
-    id: timeline
-    attributes:
-      label: Timeline
-      description: What is the rough timeline for implementation and rollout?
+      label: Risks and Mitigations
+      description: Identify potential risks and how they can be addressed.
   - type: textarea
     id: open_questions
     attributes:
       label: Open Questions
+      description: List open questions.
       placeholder: |
         - Question 1
         - Question 2
