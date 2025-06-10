@@ -4,12 +4,7 @@ body:
     id: overview
     attributes:
       label: Overview
-      description: Briefly describe what this spec is about. What’s being proposed?
-  - type: textarea
-    id: motivation
-    attributes:
-      label: Motivation
-      description: Why are we doing this? What problem does it solve?
+      description: Briefly describe what this spec is about. What’s being proposed? Why are we doing this? What problem does it solve?
   - type: textarea
     id: goals
     attributes:
@@ -29,11 +24,13 @@ body:
       label: Design Overview
       description: Describe the architecture or high-level technical approach.
       value: |
+        <!--
         Explain the proposed changes in detail:
-        - APIs
-        - Data models
-        - Code structure
-        - Dependencies
+          - APIs
+          - Data models
+          - Code structure
+          - Dependencies
+        -->
   - type: textarea
     id: alternatives
     attributes:
@@ -50,8 +47,10 @@ body:
       label: Open Questions
       description: List open questions.
       placeholder: |
+        <!--
         - Question 1
         - Question 2
+        -->
   - type: textarea
     id: future_work
     attributes:
