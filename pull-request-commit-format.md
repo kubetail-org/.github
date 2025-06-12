@@ -21,6 +21,7 @@ With these types:
 - `doc` - for documentation 
 - `test` - for test
 - `ref` - for refactoring
+- `chore` - for housekeeping
 - `wip` - work in progress
 
 To squash commits or to add a signature to an existing commit you can use `git reset` and then create a new commit (replace `N` with the number of commits in your PR):
